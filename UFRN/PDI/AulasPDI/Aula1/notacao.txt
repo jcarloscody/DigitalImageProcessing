@@ -1,0 +1,15 @@
+debluring - suavização - > desfoque, desfiar, borrar
+
+contraste - faz diferença entre coisas similares
+
+distancia de pontos: a diferença de intensidade
+
+logica fuzzy
+algoritmos geneticos
+redes neurais
+
+algoritmo de redução ou compressão de imagem - gera distorção, ruidos
+
+
+photoshop, paint - vc trabalha com matriz de intensidade
+coreldraw - tudo é tratado por vetor, nao tem nenhuma imagem ali, não tem pixels
