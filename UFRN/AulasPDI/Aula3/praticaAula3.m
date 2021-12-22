@@ -20,9 +20,10 @@ a = [1 1 1; 2 2 2; 3 3 3];
 a(a==2)=20
 
 #travando AULA 40 minutos
+close all
+clear all
 
-
-original = imread('C:\Users\developer\Documents\JosueCarlosDrive\UFRN\PDI\AulasPDI\img-exercicio1.jpeg');
+original = imread('C:/Users/developer/Documents/Repositorios/DigitalImageProcessing/UFRN/AulasPDI/Aula3/imagem2.jpg');
 figure('Name', 'original');
 imshow(original)
 
@@ -41,10 +42,15 @@ imshow(mascaraVerde)
 
 
 
-#gerando grafico
+#gerando grafico - HISTOGRAMA - DISTRIBUIÇÃO DA QUANTIDADE DE PIXEL POR INTENSIDADE DE UMA IMAGEM
 pkg load image  #precisa importar
+figure('Name', 'grafico-ORIGINAL');
+imhist(original)
+
 figure('Name', 'grafico-mascaraVerde');
 imhist(mascaraVerde)
-
-imhist(mascaraVerde)
 vetor = imhist(mascaraVerde);
+
+
+figure('Name', 'grafico-sdsd');
+imhist(original(:,:,3));

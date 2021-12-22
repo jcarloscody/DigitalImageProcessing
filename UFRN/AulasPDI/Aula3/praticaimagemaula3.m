@@ -3,7 +3,7 @@ clear all
 
 pkg load image
 
-imagem = imread('C:/Users/developer/Documents/Repositorios/DigitalImageProcessing/UFRN/PDI/AulasPDI/Aula3/imagem2.jpg');
+imagem = imread('C:/Users/developer/Documents/Repositorios/DigitalImageProcessing/UFRN/AulasPDI/Aula3/imagem2.jpg');
 
 vermelho(:,:) = imagem(:,:,1);
 verde(:,:) = imagem(:,:,2);
