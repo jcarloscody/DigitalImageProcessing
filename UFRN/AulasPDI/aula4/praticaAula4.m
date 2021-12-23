@@ -4,7 +4,7 @@ pkg load image
 clear all
 close all
 
-original = imread('C:\Users\developer\Documents\JosueCarlosDrive\UFRN\PDI\AulasPDI\aula4\aula4exerciciograos.jpeg');
+original = imread('C:/Users/developer/Documents/Repositorios/DigitalImageProcessing/UFRN/AulasPDI/aula4/aula4exerciciograos.jpeg');
 figure('Name', 'Original');
 imshow(original)
 
@@ -42,9 +42,9 @@ for(i=1:size(tonsdecinza,1))
       tonsdecinzaLimiarLoop(i,j)=0;
      else
        tonsdecinzaLimiarLoop(i,j)=255;
-     endifs
+     endif
    endfor
-endfors
+endfor
 
 figure('Name', 'Nova imagem tons de cinza com limiar com loop');
 imshow(tonsdecinzaLimiarLoop)

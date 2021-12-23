@@ -2,15 +2,18 @@
 %nao pegou o escalonamento
 %se eu faço um im2bw numa imagem, ela aceita intensidade != 0 1
 
+close all
+clear all
+
 #unique = dá os valores unicos de uma matriz. retorna n linhas de 1 coluna, 
-a = [1 2 2; 2 2 2];
+a = [1 2 50; 20 2 4];
 unique(a) %1 2 
 
-clear
-
+##6. Transformar a imagem original (im2) em uma imagem binária (imBW), considerando 1-
+##branco e 0-preto (não utilizar a função im2bw do Octave);
 ##funcao im2bw transforma em binario, mas faremos laços
 
-original = imread('C:\Users\developer\Documents\JosueCarlosDrive\UFRN\PDI\AulasPDI\aula4\aula4exercicio.jpeg');
+original = imread('C:/Users/developer/Documents/Repositorios/DigitalImageProcessing/UFRN/AulasPDI/aula4/aula4exercicio.jpeg');
 figure('Name', 'Original');
 imshow(original)
 
@@ -44,7 +47,8 @@ imshow(originalBW2); %colocando um escalonamento de 0-1
 
 
 
-
+##7. Mostrar, em intensidades de cinza diferentes, os objetos individuais da imagem conforme 
+##Imagem3. Para este passo, observe as informações a seguir:
 primeiroErro = 1;%flag - primeiro erro de vizinhos com rotulos diferentes encontrado
 rotulosIguais = 0;
 r = 1; %inidice do vetor rotulos iguais
@@ -53,10 +57,15 @@ r = 1; %inidice do vetor rotulos iguais
 rotulo = 40; %rotulo inicial
 imRotulo = originalBW2; %imagem copia para armazenar os rotulos
 
+
+##Procedimento a ser seguido pelo algoritmo:
+##? Se p = 0 então verifica o próximo pixel;
+##? Se p =1, examina r e t
 for i=1:size(originalBW2,1)
   for j=1:size(originalBW2,2)
     if originalBW2(i,j)==1 % se o pixel é =1 - foreground, examina os vizinhos de e da esquerda
-      %r(esquerda)=0 e t(top)=0
+      
+      %Se (r = 0 e t = 0) então rotula p com novo rótulo; ------   r(esquerda)=0 e t(top)=0
       if((originalBW2(i-1,j)==0) && (originalBW2(i,j-1)==0)) %se os vizinhos forem pixeis de background, o pixel recebe
         rotulo += 5;%novo rotulo (soma de 5 em 5 para aumentar a diferença visual entre as intensidades)
         imRotulo(i,j) = rotulo;
