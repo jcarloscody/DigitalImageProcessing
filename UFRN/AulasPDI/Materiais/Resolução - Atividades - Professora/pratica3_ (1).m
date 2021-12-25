@@ -3,84 +3,87 @@ pkg load image
 clear all
 close all
 
-im = imread('D:\EAJ\2020\20202\PDI\Aulas\Aula 3 - Fundamentos e relacoes\soja.jpg');
-figure('Name','Imagem original: soja')
-imshow(im)
+##im = imread('D:\EAJ\2020\20202\PDI\Aulas\Aula 3 - Fundamentos e relacoes\soja.jpg');
+##figure('Name','Imagem original: soja')
+##imshow(im)
+##
+##imagem2 = rgb2gray(im);
+##figure('Name','Imagem original: soja cinza')
+##imshow(imagem2)
+##
+##figure('Name','Histograma imagem soja');
+##imhist(imagem2)
+##
+##imagem4 = uint8(zeros(size(imagem2,1), size(imagem2,2)));
+##imagem4(:,:) = 255;
+##
+##limiar = 60; %valor fixo para corte do histograma - observação
+##imagem4(imagem2>limiar) = 0;
+##
+##%for(i=1:size(imagem2,1))
+##%  for(j=1:size(imagem2,2))
+##%    if(imagem2(i,j)>limiar)
+##%      imagem4(i,j) = 0;
+##%    end
+##%  end
+##%end
+##figure('Name', 'Segmentação por corte do histograma');
+##imshow(imagem4)
+##
+##imagem5 = uint8(zeros(size(imagem4,1), size(imagem4,2), 3));
+##%{
+##for(i=1:size(imagem2,1))
+##  for(j=1:size(imagem2,2))
+##    if(imagem4(i,j)==0) % é um pixel de foreground (semente)
+##      imagem5(i,j,:) = im(i,j,:);
+##    else
+##      imagem5(i,j,:) = 255;
+##    end
+##  end
+##end
+##
+##figure('Name','Imagem segmentada');
+##imshow(imagem5)
+##%}
+##
+##imagem6 = uint8(zeros(size(imagem4,1), size(imagem4,2)));
+##imagem7 = uint8(zeros(size(imagem4,1), size(imagem4,2)));
+##imagem8 = uint8(zeros(size(imagem4,1), size(imagem4,2)));
+##imagem6(:,:) = imagem7(:,:) = imagem8(:,:) = 255;
+##
+##imR = im(:,:,1);
+##imG = im(:,:,2);
+##imB = im(:,:,3);
+##
+##%imR(imagem4==255) = 255;
+##%imG(imagem4==255) = 255;
+##%imB(imagem4==255) = 255;
+##
+##imagem6(imagem4==0) = imR(imagem4==0);
+##imagem7(imagem4==0) = imG(imagem4==0);
+##imagem8(imagem4==0) = imB(imagem4==0);
+##
+##%figure('Name','Imagem segmentada - canal R');
+##%imshow(imagem6)
+##%figure('Name','Imagem segmentada - canal G');
+##%imshow(imagem7)
+##%figure('Name','Imagem segmentada - canal B');
+##%imshow(imagem8)
+##
+##imagem5(:,:,1) = imagem6(:,:);
+##imagem5(:,:,2) = imagem7(:,:);
+##imagem5(:,:,3) = imagem8(:,:);
+##
+##figure('Name','Imagem segmentada');
+##imshow(imagem5)
 
-imagem2 = rgb2gray(im);
-figure('Name','Imagem original: soja cinza')
-imshow(imagem2)
-
-figure('Name','Histograma imagem soja');
-imhist(imagem2)
-
-imagem4 = uint8(zeros(size(imagem2,1), size(imagem2,2)));
-imagem4(:,:) = 255;
-
-limiar = 60; %valor fixo para corte do histograma - observação
-imagem4(imagem2>limiar) = 0;
-
-%for(i=1:size(imagem2,1))
-%  for(j=1:size(imagem2,2))
-%    if(imagem2(i,j)>limiar)
-%      imagem4(i,j) = 0;
-%    end
-%  end
-%end
-figure('Name', 'Segmentação por corte do histograma');
-imshow(imagem4)
-
-imagem5 = uint8(zeros(size(imagem4,1), size(imagem4,2), 3));
 %{
-for(i=1:size(imagem2,1))
-  for(j=1:size(imagem2,2))
-    if(imagem4(i,j)==0) % é um pixel de foreground (semente)
-      imagem5(i,j,:) = im(i,j,:);
-    else
-      imagem5(i,j,:) = 255;
-    end
-  end
-end
-
-figure('Name','Imagem segmentada');
-imshow(imagem5)
+adlaksdmvkasdml
+safas
 %}
-
-imagem6 = uint8(zeros(size(imagem4,1), size(imagem4,2)));
-imagem7 = uint8(zeros(size(imagem4,1), size(imagem4,2)));
-imagem8 = uint8(zeros(size(imagem4,1), size(imagem4,2)));
-imagem6(:,:) = imagem7(:,:) = imagem8(:,:) = 255;
-
-imR = im(:,:,1);
-imG = im(:,:,2);
-imB = im(:,:,3);
-
-%imR(imagem4==255) = 255;
-%imG(imagem4==255) = 255;
-%imB(imagem4==255) = 255;
-
-imagem6(imagem4==0) = imR(imagem4==0);
-imagem7(imagem4==0) = imG(imagem4==0);
-imagem8(imagem4==0) = imB(imagem4==0);
-
-%figure('Name','Imagem segmentada - canal R');
-%imshow(imagem6)
-%figure('Name','Imagem segmentada - canal G');
-%imshow(imagem7)
-%figure('Name','Imagem segmentada - canal B');
-%imshow(imagem8)
-
-imagem5(:,:,1) = imagem6(:,:);
-imagem5(:,:,2) = imagem7(:,:);
-imagem5(:,:,3) = imagem8(:,:);
-
-figure('Name','Imagem segmentada');
-imshow(imagem5)
-
-
 % ----------------------------------------------------------------
 
-im2 = imread('D:\EAJ\2020\20202\PDI\Aulas\Aula 3 - Fundamentos e relacoes\objetos1.jpg');
+im2 = imread('C:/Users/developer/Documents/Repositorios/DigitalImageProcessing/UFRN/AulasPDI/aula4/aula4exercicio.jpeg');
 
 figure('Name','Imagem Original - Objetos PB')
 imshow(im2)
