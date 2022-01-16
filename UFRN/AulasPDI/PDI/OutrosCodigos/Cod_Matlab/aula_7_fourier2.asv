@@ -1,0 +1,18 @@
+I = imread('c:\imagens\football.jpg');
+I = I(:,:,1);
+figure(1)
+imshow(I)
+J1=imnoise(I,'gaussian');
+J2=imnoise(I,'salt & pepper');
+[f1, f2] = freqspace([11,11]);
+[x, y] = meshgrid(f1, f2);
+Hd = zeros(size(x));c
+d = find(sqrt(x.*x + y.*y)<.3);
+Hd(d) = ones(size(d));
+h = fwind1(Hd, hamming(11));
+K1 = filter2(h,J1);
+K2 = filter2(h,J2);
+subplot(2,2,1);imshow(J1,64)
+subplot(2,2,2);imshow(K1,64)
+subplot(2,2,3);imshow(J2,64)
+subplot(2,2,4);imshow(K2,64)
