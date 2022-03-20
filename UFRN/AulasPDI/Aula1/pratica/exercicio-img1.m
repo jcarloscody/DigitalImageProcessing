@@ -4,7 +4,7 @@ close all
 pkg load image
 
 
-img = imread('C:\Users\developer\Documents\JosueCarlosDrive\UFRN\PDI\AulasPDI\img-exercicio1.jpeg');
+img = imread('C:\Users\developer\Documents\Repositorios\DigitalImageProcessing\UFRN\AulasPDI\Aula1\pratica\img-exercicio1.jpeg');
 
 imgR = imgG = imgA = uint8(zeros(size(img,1), size(img,2),3));
 %imgR = uint8(zeros(size(img,1), size(img,2),3));
