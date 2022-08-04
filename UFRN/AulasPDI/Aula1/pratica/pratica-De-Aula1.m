@@ -34,4 +34,17 @@ imshow(imPreto)
 
 
 
+x = uint8(zeros(10, 20))
 
+y = x;
+r = 255;
+for i=1:size(x,1)
+  for j=1:size(x,2)
+    y(i,j) = r;
+    r-=10;
+  endfor
+  r=255;
+endfor
+
+figure(4)
+imshow(y)
