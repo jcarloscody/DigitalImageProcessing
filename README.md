@@ -37,7 +37,9 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
 - **resolução de intensidade:** é a menor variação discernível de nível de intensidade em uma imagem(8 bits níveis de cinza, 16 bits, 32 bits). a quantidade de níveis de cinza que a imagem tem.
 
 
-### Passos Fundamentais
+## Passos Fundamentais
+<img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/passosfundamentais.jpg" alt="Nature">
+<br/>
 - Aquisição:
   - tem objetivo de obter uma representação da informação a partir de dispositivos fisicos sensíveis que convertem o sinal elétrico para um formato digital.
 - pré-processamento: consiste no realce da imagem para enfatizar características de interesse ou recuperar imagens que sofreram alguma perda.
