@@ -31,4 +31,6 @@
     <li>Reconhecimento</li>
 </ol>
 
-<img src="">
+<img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/etapas.PNG">
+
+
