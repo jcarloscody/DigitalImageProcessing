@@ -51,6 +51,10 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
 
 <img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/modelorgb.jpg" alt="Nature">
 
+<br/>
+
+<img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/modelorgb.jpg" alt="Nature">
+
 ## IMAGENS COLORIDAS
   - Consistem em 3 imagens sobrepostas. possuem 3 canais: RGB - red, green, blue.
   - Intensidade - Luz acromática: imagem de 1 canal aprensenta apenas uma intensidade de cinza.
