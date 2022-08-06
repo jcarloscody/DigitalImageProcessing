@@ -53,7 +53,7 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/modelocmyk.PNG" alt="Nature">
+<img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/modelocmyk.jpg" alt="Nature">
 
 ## IMAGENS COLORIDAS
   - Consistem em 3 imagens sobrepostas. possuem 3 canais: RGB - red, green, blue.
