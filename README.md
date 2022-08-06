@@ -49,6 +49,7 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
 <br/>
 <br/>
 
+
 <img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/modelorgb.jpg" alt="Nature">
 
 <br/>
@@ -65,3 +66,8 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
   - Tom - tonalidade ou matiz, é a cor pura, relativo ao comprimento de onda da luz.
   - Saturação ou pureza: refere-se à quantidade em que a cor pura é diluída na luz branca.
   - Cromaticidade: matiz + saturação
+  - Modelo aditivo: luz RGB
+  - Modelo Subtrativo: tinta CMYK
+  - Modelo RGB
+    - 3 canais red green blue
+    - adição e mistura de cores primárias de luz. 
