@@ -68,6 +68,6 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
   - Cromaticidade: matiz + saturação
   - Modelo aditivo: luz RGB
   - Modelo Subtrativo: tinta CMYK
-  - Modelo RGB
+  - [Modelo RGB](https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/modelorgb.jpg)
     - 3 canais red green blue
     - adição e mistura de cores primárias de luz. 
