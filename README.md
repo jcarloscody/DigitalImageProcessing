@@ -71,3 +71,11 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
   - [Modelo RGB](https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/modelorgb.jpg)
     - 3 canais red green blue
     - adição e mistura de cores primárias de luz. 
+    - Intensidade:
+      - alta: se aproxima de 255
+      - baixa: se aproxima de 0
+  - [Modelo CMYK](https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/modelocmyk.jpg):
+    - 4 canais. cyan, mageta, yellow, black
+    - basea-se na forma como a natureza cria as cores, refletindo parte do espectro de luz e absorvendo outras.
+    - Branco: inexistência de tinta
+    - Escuro: concentração de tinta.
