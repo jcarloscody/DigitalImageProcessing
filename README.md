@@ -45,3 +45,15 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
 - Representação e descrição: consiste na representação a partir da descrição das propriedades das regioes segmentadas (descritores) para o reconhecimento dos objetos.
 - reconhecimento e interpretação: consiste na atribuição de um rótulo (classe) a um objeto ou região baseada nas informações fornecidas pelo seu conjunto de descritores.
 - Base de conhecimento: agrega ao modelo um conjunto especializado de conhecimentos a respeito do domínio do problema. 
+
+
+## IMAGENS COLORIDAS
+  - Consistem em 3 imagens sobrepostas. possuem 3 canais: RGB - red, green, blue.
+  - Intensidade - Luz acromática: imagem de 1 canal aprensenta apenas uma intensidade de cinza.
+  - Intensidade - Luz cromática: manipulação de 3 canais, 3 variaçoes de intnesidade de cinzas 
+  - o olho humano distingui pouco mais de 30 níveis de cinza e não as 255, e as cores distinguimos pouco mais de 1000.
+  - Pseudocores: atribuição de cores a imagens monocromáticas(imagens captadas em apenas uma variacao de cinza e dentro de um intervalo de intensidade de cinza atribuimos uma cor)
+  - Brilho: intensidade de luz, variacao do 0-255
+  - Tom - tonalidade ou matiz, é a cor pura, relativo ao comprimento de onda da luz.
+  - Saturação ou pureza: refere-se à quantidade em que a cor pura é diluída na luz branca.
+  - Cromaticidade: matiz + saturação
