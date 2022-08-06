@@ -20,7 +20,7 @@
 
 <img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/intensidade.webp">
 
-    - O valor do pixel de uma imagem recebe um nome de intensidade o preto tem intensidade 0 o branco propriamente dito tem intensidade 255
+  - O valor do pixel de uma imagem recebe um nome de intensidade o preto tem intensidade 0 o branco propriamente dito tem intensidade 255
 
 
 ### Adaptação ao brilho e discriminação 
