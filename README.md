@@ -46,6 +46,10 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
 - reconhecimento e interpretação: consiste na atribuição de um rótulo (classe) a um objeto ou região baseada nas informações fornecidas pelo seu conjunto de descritores.
 - Base de conhecimento: agrega ao modelo um conjunto especializado de conhecimentos a respeito do domínio do problema. 
 
+<br/>
+<br/>
+
+<img src="https://github.com/jcarloscody/DigitalImageProcessing/blob/main/images/modelorgb.jpg" alt="Nature">
 
 ## IMAGENS COLORIDAS
   - Consistem em 3 imagens sobrepostas. possuem 3 canais: RGB - red, green, blue.
