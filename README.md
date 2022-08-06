@@ -55,7 +55,6 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
 ## IMAGENS COLORIDAS
 <br/>
 
-
 <img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/modelorgb.jpg" alt="Nature">
 
 <br/>
@@ -67,6 +66,9 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
   - Intensidade - Luz cromática: manipulação de 3 canais, 3 variaçoes de intnesidade de cinzas 
   - o olho humano distingui pouco mais de 30 níveis de cinza e não as 255, e as cores distinguimos pouco mais de 1000.
   - Pseudocores: atribuição de cores a imagens monocromáticas(imagens captadas em apenas uma variacao de cinza e dentro de um intervalo de intensidade de cinza atribuimos uma cor)
+  
+  <img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/pseudocolor.png">
+  
   - Brilho: intensidade de luz, variacao do 0-255
   - Tom - tonalidade ou matiz, é a cor pura, relativo ao comprimento de onda da luz.
   - Saturação ou pureza: refere-se à quantidade em que a cor pura é diluída na luz branca.
