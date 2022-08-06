@@ -1,6 +1,6 @@
-#clear all      apaga todas as variaveis
-#close all         fecha todas as janelas
-#pkg load image;    sobe o pacote de processamento de imagem
+clear all   #   apaga todas as variaveis
+close all      #   fecha todas as janelas
+pkg load image;  #   sobe o pacote de processamento de imagem
 
 
 im2 = zeros(20,20);  #uint8(zeros(20,20))
