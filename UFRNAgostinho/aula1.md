@@ -1,3 +1,4 @@
+[resume](https://agostinhobritojr.github.io/curso/pdi/)
 ## O que é processamento digital de imagens
 - Primeira Imagem digital:
   - Russel Kirsch - 1957
