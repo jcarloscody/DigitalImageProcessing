@@ -40,6 +40,7 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
 ## Passos Fundamentais
 <img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/passosfundamentais.jpg" alt="Nature">
 <br/>
+
 - Aquisição:
   - tem objetivo de obter uma representação da informação a partir de dispositivos fisicos sensíveis que convertem o sinal elétrico para um formato digital.
 - pré-processamento: consiste no realce da imagem para enfatizar características de interesse ou recuperar imagens que sofreram alguma perda.
@@ -49,6 +50,9 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
 - Base de conhecimento: agrega ao modelo um conjunto especializado de conhecimentos a respeito do domínio do problema. 
 
 <br/>
+
+
+## IMAGENS COLORIDAS
 <br/>
 
 
@@ -58,7 +62,6 @@ Resolução de intensidade: quantidade de bits que vc tem para armazenar cada in
 
 <img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/modelocmyk.jpg" alt="Nature">
 
-## IMAGENS COLORIDAS
   - Consistem em 3 imagens sobrepostas. possuem 3 canais: RGB - red, green, blue.
   - Intensidade - Luz acromática: imagem de 1 canal aprensenta apenas uma intensidade de cinza.
   - Intensidade - Luz cromática: manipulação de 3 canais, 3 variaçoes de intnesidade de cinzas 
