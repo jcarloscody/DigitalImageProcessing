@@ -9,7 +9,7 @@ function [resultadoPicos, resultadoVales] = picosvales(vetor, tamanho)
 		if (i==1)
 
 			if(vetor(i)>vetor(i+1))
-				picos(indicePico)=vetor(1);
+				picos(indicePico)=vetor(i);
 				indicePico = indicePico+1;
 				n = "aqui 1==1   ->  vetor(i)>vetor(i+1)"
 				picos
