@@ -70,23 +70,29 @@
 
 <img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/channels2.jpg">
 
-  - Intensidade - Luz acromática: imagem de 1 canal aprensenta apenas uma intensidade de cinza.
-  - Intensidade - Luz cromática: manipulação de 3 canais, 3 variaçoes de intnesidade de cinzas 
+<br>
+<br>
+<br>
+
+# AULA 2
+
+  - **Intensidade** - `Luz acromática`: imagem de 1 canal aprensenta apenas uma intensidade de cinza.
+  - **Intensidade** - `Luz cromática`: manipulação de 3 canais, 3 variaçoes de intnesidade de cinzas 
   - o olho humano distingui pouco mais de 30 níveis de cinza e não as 255, e as cores distinguimos pouco mais de 1000.
-  - Pseudocores: atribuição de cores a imagens monocromáticas(imagens captadas em apenas uma variacao de cinza e dentro de um intervalo de intensidade de cinza atribuimos uma cor)
+  - **`Pseudocores`**: atribuição de cores a imagens monocromáticas(imagens captadas em apenas uma variacao de cinza e dentro de um intervalo de intensidade de cinza atribuimos uma cor)
   
   <img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/pseudocolor.png">
 
-  - Brilho: intensidade de luz, variacao do 0-255
-  - Tom - tonalidade ou matiz, é a cor pura, relativo ao comprimento de onda da luz.
-  - Saturação ou pureza: refere-se à quantidade em que a cor pura é diluída na luz branca.
-  - Cromaticidade: matiz + saturação
-  - Modelo aditivo: luz RGB
-  - Modelo Subtrativo: tinta CMYK
+  - **Brilho**: intensidade de luz, variacao do 0-255
+  - **Tom** - tonalidade ou matiz, é a cor pura, relativo ao comprimento de onda da luz.
+  - **Saturação ou pureza:** refere-se à quantidade em que a cor pura é diluída na luz branca.
+  - **Cromaticidade**: matiz + saturação
+  - **Modelo aditivo:** luz RGB
+  - **Modelo Subtrativo:** tinta CMYK
   - [Modelo RGB](https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/modelorgb.jpg)
     - 3 canais red green blue
     - adição e mistura de cores primárias de luz. 
-    - Intensidade:
+    - **Intensidade:**
       - alta: se aproxima de 255
       - baixa: se aproxima de 0
   - [Modelo CMYK](https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/modelocmyk.jpg):
@@ -94,3 +100,6 @@
     - basea-se na forma como a natureza cria as cores, refletindo parte do espectro de luz e absorvendo outras.
     - Branco: inexistência de tinta
     - Escuro: concentração de tinta.
+  - `Modelo Cor Indexada (Pseudocores)`
+  <img src="">
+    - Uma tecnica utilizada para isto é o fatiamento de intensidades, substituindo cada intensidade por uma matiz.

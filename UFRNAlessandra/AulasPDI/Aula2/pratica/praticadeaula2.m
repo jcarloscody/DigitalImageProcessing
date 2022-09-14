@@ -94,3 +94,7 @@ imshow(im2Color(:,:,2))
 
 figure(8)
 imshow(im2Color(:,:,3))
+
+
+
+

@@ -1,4 +1,6 @@
 [resume](https://agostinhobritojr.github.io/curso/pdi/)
+
+# Fundamentos
 ## O que é processamento digital de imagens
 - Primeira Imagem digital:
   - Russel Kirsch - 1957
@@ -20,7 +22,7 @@
 
 # ETAPAS
 <ol>
-    <li>Aquisição:</li>
+    <li ><p style="color:red; background-color:black; font-weight:bold"> Aquisição: </p></li>
     <ul>
         <li>a parte mais importante pq a cena deve ser cuidadosamente preparada.</li>
     </ul>
