@@ -101,5 +101,5 @@
     - Branco: inexistência de tinta
     - Escuro: concentração de tinta.
   - `Modelo Cor Indexada (Pseudocores)`
-  <img src="">
+  <img src="https://raw.githubusercontent.com/jcarloscody/DigitalImageProcessing/main/images/pseudocor.png">
     - Uma tecnica utilizada para isto é o fatiamento de intensidades, substituindo cada intensidade por uma matiz.
